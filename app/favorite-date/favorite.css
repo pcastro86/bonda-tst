@@ -1,0 +1,54 @@
+.favorite-info {
+    padding: 15px
+}
+.favorite-info .cupon-info{
+  /*   padding-right: 0px; */
+    padding-left: 34px;
+}
+.favorite-info .cupon-info .date-info .smile-icon{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.favorite-info .cupon-info .date-info .expiration-favorite{
+    font-size: 13.7px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    display: inline-block;
+    color: #979797;
+    margin-left: 9px;
+    margin-bottom: 0px;
+}
+.favorite-info .icons{
+    text-align: right;
+    padding-right: 34px;
+    color: #979797;
+}
+.favorite-info .icons .reply-icon , .star-icon{
+    margin-right: 24px;
+    font-size: 17px;
+}
+.favorite-info  .reply-icon:hover, .star-icon:hover , .ellipsis-h-icon:hover{
+    color: #626567;
+}
+
+@media only screen and (max-width : 768px) {
+    .favorite-info{
+        padding: 15px 0px 0px 15px;
+    }
+    .favorite-info .cupon-info .date-info .expiration-favorite{
+        font-size: 23.6px;
+        margin-bottom: 0px;
+    }
+    .favorite-info .icons{
+        display: none;
+    }
+}
+@media only screen and (max-width : 425px){
+    .favorite-info .cupon-info .date-info .expiration-favorite{
+        font-size: 18.6px;
+    }
+}

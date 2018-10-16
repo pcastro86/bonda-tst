@@ -1,0 +1,27 @@
+angular.module('app')
+    .component('walletListComponent', {
+        bindings: {},
+        templateUrl: 'app/wallet-list/wallet-list.html',
+        controller: function () {
+            this.wallet = 'Mi Billetera'
+            $(document).ready(function () {
+                var scrollTop = 0;
+                
+                $(window).scroll(function () {
+                    scrollTop = $(window).scrollTop();
+                    $('.counter').html(scrollTop);
+                    if (scrollTop >= 100) {
+                        $('#global-nav').addClass('scrolled-nav');
+                    } else if (scrollTop < 100) {
+                        $('#global-nav').removeClass('scrolled-nav');
+                    }
+
+                });
+
+            });
+        }
+    })
+
+
+
+

@@ -1,0 +1,17 @@
+{
+    "extends" : "eslint:recommended",
+    "root": true,
+    "rules": {
+        "camelcase": 2,
+        "space-infix-ops": 2
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jquery": true
+      },
+    "globals": {
+        "angular": true
+    }
+}

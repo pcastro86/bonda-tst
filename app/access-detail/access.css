@@ -1,0 +1,83 @@
+
+.detail-access {
+    padding: 24px 16px;
+    background-color: #f6f6f6;
+    margin-top: 41px;
+}
+.detail-access .description .title{
+    font-size: 23.6px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 12px;
+}
+.detail-access .description .code{
+  font-size: 13.7px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px
+}
+.detail-access .intructions{
+  font-size: 15.7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 29px;
+}
+.detail-access .info{
+  font-size: 19.6px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px
+}
+
+.detail-access .web{
+  font-size: 15.7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.detail-access .link{
+  font-size: 15.7px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: 0.2px;
+  color: #9c27b0;
+  display: block
+}
+
+
+@media only screen and (max-width : 768px) {
+  .detail-access{
+    margin: 0 36px 36px 36px;
+  }
+}
+@media only screen and (max-width : 320px){
+  .detail-access{
+    margin: 0 36px 36px 0px;
+  }
+  .detail-access .intructions {
+    width: 85%
+  }
+
+}

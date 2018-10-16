@@ -1,0 +1,77 @@
+.availability-info{
+    padding: 15px;
+}
+.availability-info .date-info {
+    padding-left: 34px;
+}
+.availability-info .date-info .date{
+    font-size: 13.7px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.38);
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.availability-info .date-info .clock-icon{
+    font-size: 20px;
+    color: #8cc03e;
+    vertical-align: middle;
+}
+.availability-info .date-info .expiration{
+    font-size: 13.7px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    color: #8cc03e;
+    display: inline-block
+}
+.availability-info .icons{
+    text-align: right;
+    padding-right: 37px;
+    color: #979797;
+}
+
+.availability-info .reply-icon , .right-icon{
+    margin-right: 24px;
+    font-size: 17px;
+}
+.availability-info , .reply-icon:hover, .right-icon:hover , .ellipsis-h-icon:hover{
+    color: #626567;
+}
+
+@media only screen and (max-width : 768px) {
+    .availability-info{
+        padding: 15px 0px 0px 15px;
+    }
+    .availability-info .icons{
+        display: none;
+    }
+    .availability-info .date-info .date , .clock-icon{ 
+        font-size: 23.6px !important;
+        vertical-align: initial !important
+    }
+    .availability-info .date-info .expiration{
+        margin-left: 8px;
+        font-size: 23.6px;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width : 425px){
+    .availability-info .date-info .date, .clock-icon{
+        font-size: 18.6px !important;
+    }
+    .availability-info .date-info .expiration{
+        font-size: 18.6px;
+        margin-left: 5px;
+    }
+    .availability-info .date-info .clock-icon{
+        vertical-align: initial;
+    }
+}

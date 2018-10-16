@@ -1,0 +1,50 @@
+.request-info{
+    padding: 15px;
+}
+.request-info .date-info{
+ /*    padding-right: 0px; */
+    padding-left: 34px;
+}
+.request-info .date-info .date{
+    font-size: 13.7px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    color: rgba(0, 0, 0, 0.38);
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.request-info .icons{
+    color: #979797;
+    padding-left: 0px;
+    text-align: right;
+    padding-right: 37px;
+}
+.request-info .reply-icon , .right-icon{
+    margin-right: 24px;
+    font-size: 17px;
+}
+
+.request-info , .reply-icon:hover, .right-icon:hover , .ellipsis-h-icon:hover{
+    color: #626567;
+}
+
+@media only screen and (max-width : 768px) {
+    .request-info{
+        padding: 15px 0px 0px 15px;
+    }
+    .request-info .date-info .date{
+        font-size: 23.6px;
+    }
+    .request-info .icons{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 425px){
+    .request-info .date-info .date{
+        font-size: 18.6px;
+    }
+}
